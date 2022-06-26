@@ -30,17 +30,3 @@ body:
       placeholder: Write reason here
     validations:
       required: true
-  - type: dropdown
-    id: versions
-    attributes:
-      label: Which version of the app are you using?
-      description: If this issue is occurring on more than 1 version of the app, select the appropriate versions.
-      multiple: true
-      options:
-       - 1.0.0
-       - 1.1.0
-       - 1.2.0
-       - 2.0.0
-       - 2.1.0
-    validations:
-      required: true
